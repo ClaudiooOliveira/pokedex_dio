@@ -1,0 +1,32 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+li {
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+img:hover, li:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
