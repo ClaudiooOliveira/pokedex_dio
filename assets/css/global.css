@@ -13,6 +13,7 @@ li {
 
 img:hover, li:hover {
     transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    cursor: pointer;
 }
 
 .content {

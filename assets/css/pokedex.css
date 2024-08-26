@@ -146,6 +146,11 @@
     border-radius: 1rem;
 }
 
+.pagination button:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    cursor: pointer;
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
